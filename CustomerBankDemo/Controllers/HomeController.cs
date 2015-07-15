@@ -28,5 +28,11 @@ namespace CustomerBankDemo.Controllers
 
             return View();
         }
+        public ActionResult Quickbooks()
+        {
+            ViewBag.Message = "Your quickbooks page.";
+
+            return View();
+        }
     }
 }
